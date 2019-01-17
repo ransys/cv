@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Contacts</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <script src="main.js"></script>
+</head>
+<body>
+    <h1>My Contact Details</h1>
+    <p>My address: 36 Infirmary Walk, WR1 3AZ, Worcester</p>
+    <p>07495050695</p>
+    <p>ransys.aurimas@gmail.com</p>
+    <hr>
+
+    <form action="mailto:ransys.aurimas@gmail.com" method="post" enctype="text/plain">
+        <label for="fname">Your Name</label>
+        <input type="text" name="name" id="name" placeholder="First Name"><br>
+        <label for="lname">Your Last Name</label>
+        <input type="text" name="lname" id="lname" placeholder="Last Name"><br>
+        <label for="email">Email Address</label>
+        <input type="email" name="email" id="email" placeholder="Email"><br>
+        <label for="message">Your message:</label><br>
+        <textarea name="message" id="message" cols="30" rows="10"></textarea><br>
+        <input type="submit" value="Send">
+    </form>
+</body>
+</html>
